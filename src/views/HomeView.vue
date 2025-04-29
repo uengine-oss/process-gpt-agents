@@ -2,11 +2,20 @@
     <v-container>
         <v-row>
             <v-col cols="12">
+                
                 <v-card>
                     <v-card-title>Vue 3 + Vuetify 3</v-card-title>
                     <v-card-text>
                         Welcome to your new Vue 3 + Vuetify 3 application!
                     </v-card-text>
+                    <v-card-actions>
+                        <v-btn
+                            color="primary"
+                            @click="$router.push('/marketplace')"
+                        >
+                            Marketplace로 이동
+                        </v-btn>
+                    </v-card-actions>
                 </v-card>
             </v-col>
         </v-row>
@@ -14,6 +23,8 @@
 </template>
 
 <script>
+
+
 export default {
     name: 'HomeView'
 }

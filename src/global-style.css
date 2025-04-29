@@ -1,5 +1,95 @@
 .v-row,
-.v-col {
+.v-col,
+.v-container {
     margin: 0;
     padding: 0;
+}
+
+.v-container {
+    max-width: 100% !important;
+}
+
+/* 마켓플레이스 공통 스타일 */
+.section-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 40px 0 8px 0;
+    text-align: center;
+}
+
+.marketplace-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.marketplace-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #00AEEF;
+    margin-bottom: 12px;
+}
+
+.marketplace-desc {
+    color: #444;
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+}
+
+.marketplace-search-bar {
+    max-width: 480px;
+    margin: 0 auto 18px auto;
+}
+
+.marketplace-category-list {
+    margin-bottom: 10px;
+}
+
+.template-card {
+    border-radius: 18px;
+    transition: box-shadow 0.2s;
+}
+
+.template-card:hover {
+    box-shadow: 0 6px 24px 0 rgba(0, 174, 239, 0.12);
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.badge {
+    background: #e3f2fd;
+    color: #1976d2;
+    font-size: 0.85rem;
+    border-radius: 8px;
+    padding: 2px 10px;
+    margin-left: 8px;
+}
+
+.card-desc {
+    color: #555;
+    font-size: 0.97rem;
+}
+
+.chip-container {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 1;
+}
+
+.template-chip {
+    margin-right: 4px;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.no-image {
+    background: #f5f5f5;
+    width: 100%;
+    height: 100%;
 }

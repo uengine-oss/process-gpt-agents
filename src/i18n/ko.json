@@ -1,0 +1,48 @@
+{
+    "message": "ko",
+    "marketplace": {
+        "title": "Process GPT 마켓플레이스",
+        "subtitle": "다양한 비즈니스 프로세스 템플릿을 찾아보고 다운로드하여 바로 적용해보세요. \nProcess GPT 커뮤니티에서 공유된 1,000개 이상의 프로세스 템플릿을 활용하여 업무 효율성을 높이세요.",
+        "search_placeholder": "프로세스 템플릿 검색...",
+        "category": {
+            "all": "전체",
+            "business_process": "비즈니스 프로세스",
+            "finance": "금융",
+            "hr": "인사관리",
+            "sales": "영업",
+            "customer_service": "고객 서비스",
+            "marketing": "마케팅",
+            "it": "IT 운영",
+            "development": "개발"
+        },
+        "popular_templates": "인기 프로세스 템플릿",
+        "recommended_templates": "추천 템플릿",
+        "download_button": "다운로드"
+    },
+    "template": {
+        "customer_service": {
+            "title": "고객 문의 자동 응대 프로세스",
+            "desc": "고객 문의를 자동 분류하고 라우팅"
+        },
+        "sales": {
+            "title": "영업 리드 관리 프로세스",
+            "desc": "영업 리드부터 계약까지 자동화"
+        },
+        "hr": {
+            "title": "신규 직원 온보딩 프로세스",
+            "desc": "신규 입사자 온보딩 자동화"
+        },
+        "marketing": {
+            "title": "마케팅 캠페인 자동화",
+            "desc": "마케팅 캠페인 프로세스 자동화"
+        },
+        "it": {
+            "title": "IT 운영 자동화",
+            "desc": "IT 운영 효율화 프로세스"
+        },
+        "feedback": {
+            "title": "고객 피드백 분석",
+            "desc": "고객 피드백 자동 분석"
+        }
+    }
+} 

@@ -1,0 +1,48 @@
+{
+    "message": "en",
+    "marketplace": {
+        "title": "Process GPT Marketplace",
+        "subtitle": "Find and download various business process templates for immediate application. Improve your work efficiency using more than 1,000 process templates shared from the Process GPT community.",
+        "search_placeholder": "Search process templates...",
+        "category": {
+            "all": "All",
+            "business_process": "Business Process",
+            "finance": "Finance",
+            "hr": "HR Management",
+            "sales": "Sales",
+            "customer_service": "Customer Service",
+            "marketing": "Marketing",
+            "it": "IT Operations",
+            "development": "Development"
+        },
+        "popular_templates": "Popular Process Templates",
+        "recommended_templates": "Recommended Templates",
+        "download_button": "Download"
+    },
+    "template": {
+        "customer_service": {
+            "title": "Customer Inquiry Auto Response Process",
+            "desc": "Automatically classify and route customer inquiries"
+        },
+        "sales": {
+            "title": "Sales Lead Management Process",
+            "desc": "Automate from sales leads to contracts"
+        },
+        "hr": {
+            "title": "New Employee Onboarding Process",
+            "desc": "Automate new employee onboarding"
+        },
+        "marketing": {
+            "title": "Marketing Campaign Automation",
+            "desc": "Automate marketing campaign processes"
+        },
+        "it": {
+            "title": "IT Operations Automation",
+            "desc": "Streamline IT operation processes"
+        },
+        "feedback": {
+            "title": "Customer Feedback Analysis",
+            "desc": "Automatically analyze customer feedback"
+        }
+    }
+} 
