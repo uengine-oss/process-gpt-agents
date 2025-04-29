@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h2 class="section-title">{{ $t('marketplace.recommended_templates') }}</h2>
+        <h2 class="section-title">{{ $t('MarketplaceView.recommended_templates') }}</h2>
         <v-row>
             <v-col
                 v-for="templateItem in recommendedTemplateList"
@@ -27,30 +27,30 @@ export default {
             recommendedTemplateList: [
                 { 
                     id: 4, 
-                    title: this.$t('template.marketing.title'), 
-                    desc: this.$t('template.marketing.desc'), 
+                    title: this.$t('Templates.marketing_title'), 
+                    desc: this.$t('Templates.marketing_desc'), 
                     downloads: 700, 
                     image: '', 
-                    badge: '700+ ' + this.$t('marketplace.download_button'),
-                    tags: [this.$t('marketplace.category.marketing'), '자동화'] 
+                    tags: [this.$t('MarketplaceView.marketing'), this.$t('Tags.automation')],
+                    author: 'choi'
                 },
                 { 
                     id: 5, 
-                    title: this.$t('template.it.title'), 
-                    desc: this.$t('template.it.desc'), 
+                    title: this.$t('Templates.it_title'), 
+                    desc: this.$t('Templates.it_desc'), 
                     downloads: 650, 
                     image: '', 
-                    badge: '650+ ' + this.$t('marketplace.download_button'),
-                    tags: [this.$t('marketplace.category.it'), '프로세스'] 
+                    tags: [this.$t('MarketplaceView.it'), this.$t('Tags.process')],
+                    author: 'jung'
                 },
                 { 
                     id: 6, 
-                    title: this.$t('template.feedback.title'), 
-                    desc: this.$t('template.feedback.desc'), 
+                    title: this.$t('Templates.feedback_title'), 
+                    desc: this.$t('Templates.feedback_desc'), 
                     downloads: 600, 
                     image: '', 
-                    badge: '600+ ' + this.$t('marketplace.download_button'),
-                    tags: [this.$t('marketplace.category.customer_service'), '분석'] 
+                    tags: [this.$t('MarketplaceView.customer_service'), this.$t('Tags.analysis')],
+                    author: 'kang'
                 }
             ]
         }

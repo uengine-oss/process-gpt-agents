@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h2 class="section-title">{{ $t('marketplace.popular_templates') }}</h2>
+        <h2 class="section-title">{{ $t('MarketplaceView.popular_templates') }}</h2>
         <v-row>
             <v-col
                 v-for="templateItem in popularTemplateList"
@@ -27,30 +27,30 @@ export default {
             popularTemplateList: [
                 { 
                     id: 1, 
-                    title: this.$t('template.customer_service.title'), 
-                    desc: this.$t('template.customer_service.desc'), 
+                    title: this.$t('Templates.customer_service_title'), 
+                    desc: this.$t('Templates.customer_service_desc'), 
                     downloads: 1245, 
                     image: '', 
-                    badge: '1245+ ' + this.$t('marketplace.download_button'),
-                    tags: [this.$t('marketplace.category.customer_service'), '자동화'] 
+                    tags: [this.$t('MarketplaceView.customer_service'), this.$t('Tags.automation')],
+                    author: 'kim'
                 },
                 { 
                     id: 2, 
-                    title: this.$t('template.sales.title'), 
-                    desc: this.$t('template.sales.desc'), 
+                    title: this.$t('Templates.sales_title'), 
+                    desc: this.$t('Templates.sales_desc'), 
                     downloads: 987, 
                     image: '', 
-                    badge: '987+ ' + this.$t('marketplace.download_button'),
-                    tags: [this.$t('marketplace.category.sales'), 'CRM'] 
+                    tags: [this.$t('MarketplaceView.sales'), this.$t('Tags.crm')],
+                    author: 'lee'
                 },
                 { 
                     id: 3, 
-                    title: this.$t('template.hr.title'), 
-                    desc: this.$t('template.hr.desc'), 
+                    title: this.$t('Templates.hr_title'), 
+                    desc: this.$t('Templates.hr_desc'), 
                     downloads: 856, 
                     image: '', 
-                    badge: '856+ ' + this.$t('marketplace.download_button'),
-                    tags: [this.$t('marketplace.category.hr'), '온보딩'] 
+                    tags: [this.$t('MarketplaceView.hr'), this.$t('Tags.onboarding')],
+                    author: 'park'
                 }
             ]
         }

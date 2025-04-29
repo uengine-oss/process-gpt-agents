@@ -1,48 +1,48 @@
 {
     "message": "en",
-    "marketplace": {
+    "MarketplaceView": {
         "title": "Process GPT Marketplace",
-        "subtitle": "Find and download various business process templates for immediate application. Improve your work efficiency using more than 1,000 process templates shared from the Process GPT community.",
-        "search_placeholder": "Search process templates...",
-        "category": {
-            "all": "All",
-            "business_process": "Business Process",
-            "finance": "Finance",
-            "hr": "HR Management",
-            "sales": "Sales",
-            "customer_service": "Customer Service",
-            "marketing": "Marketing",
-            "it": "IT Operations",
-            "development": "Development"
-        },
+        "subtitle": "Browse and download various business process templates to apply immediately. Utilize over 1,000 process templates shared by the Process GPT community to enhance your work efficiency.",
+        "search_placeholder": "Search for process templates...",
+        "all": "All",
+        "business_process": "Business Process",
+        "finance": "Finance",
+        "hr": "HR",
+        "sales": "Sales",
+        "customer_service": "Customer Service",
+        "marketing": "Marketing",
+        "it": "IT Operations",
+        "development": "Development",
         "popular_templates": "Popular Process Templates",
-        "recommended_templates": "Recommended Templates",
-        "download_button": "Download"
+        "recommended_templates": "Recommended for You",
+        "download_button": "Download",
+        "created_by": "Created by"
     },
-    "template": {
-        "customer_service": {
-            "title": "Customer Inquiry Auto Response Process",
-            "desc": "Automatically classify and route customer inquiries"
-        },
-        "sales": {
-            "title": "Sales Lead Management Process",
-            "desc": "Automate from sales leads to contracts"
-        },
-        "hr": {
-            "title": "New Employee Onboarding Process",
-            "desc": "Automate new employee onboarding"
-        },
-        "marketing": {
-            "title": "Marketing Campaign Automation",
-            "desc": "Automate marketing campaign processes"
-        },
-        "it": {
-            "title": "IT Operations Automation",
-            "desc": "Streamline IT operation processes"
-        },
-        "feedback": {
-            "title": "Customer Feedback Analysis",
-            "desc": "Automatically analyze customer feedback"
-        }
+    "Templates": {
+        "customer_service_title": "Customer Inquiry Automation",
+        "customer_service_desc": "Auto-classify and route customer inquiries",
+        "sales_title": "Sales Lead Management Process",
+        "sales_desc": "Automate from sales lead to contract",
+        "hr_title": "New Employee Onboarding Process",
+        "hr_desc": "Automate new hire onboarding",
+        "marketing_title": "Marketing Campaign Automation",
+        "marketing_desc": "Automate marketing campaign process",
+        "it_title": "IT Operations Automation",
+        "it_desc": "Streamline IT operations process",
+        "feedback_title": "Customer Feedback Analysis",
+        "feedback_desc": "Auto-analyze customer feedback"
+    },
+    "Tags": {
+        "automation": "Automation",
+        "crm": "CRM",
+        "onboarding": "Onboarding",
+        "process": "Process",
+        "analysis": "Analysis",
+        "business": "Business"
+    },
+    "Users": {
+        "park": "Jimin Park",
+        "kim": "Younghee Kim",
+        "lee": "Chulsoo Lee"
     }
 } 
