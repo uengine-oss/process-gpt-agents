@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <div style="max-width: 80%; margin:0 auto;">
+        <div style="max-width: 80%; margin: 0 auto; padding-top: 70px;">
             <MarketplaceHeader />
             <PopularTemplates />
             <RecommendedTemplates />
