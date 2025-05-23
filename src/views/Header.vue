@@ -12,7 +12,7 @@
           <li><a class="nav-link" href="#features" @click="$router.push('/')">주요 기능</a></li>
           <li><a class="nav-link" href="#special" @click="$router.push('/')">핵심 특징</a></li>
           <li><a class="nav-link" href="#tech" @click="$router.push('/')">활용 기술</a></li>
-          <li><router-link class="nav-link" to="/marketplace" @click="scrollToTop">Marketplace</router-link></li>
+          <!-- <li><router-link class="nav-link" to="/marketplace" @click="scrollToTop">Marketplace</router-link></li> -->
         </ul>
       </nav>
       <div class="mobile-menu-btn" @click="toggleMobileMenu">

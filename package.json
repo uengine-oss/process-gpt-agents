@@ -5,11 +5,14 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gridsome build && echo 'agents.process-gpt.io' > ./dist/CNAME && gh-pages -d dist"
     },
     "dependencies": {
         "@mdi/font": "^7.1.96",
         "feather-icons": "^4.29.2",
+        "gh-pages": "^6.3.0",
         "vue": "^3.5.14",
         "vue-feather": "^2.0.0",
         "vue-feather-icons": "^5.1.0",
