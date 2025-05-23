@@ -2,7 +2,7 @@
   <section class="section" id="cases">
     <div class="container mx-auto pt-4 pb-12">
       <div class="section-header">
-        <h2>성공적인 구축 사례</h2>
+        <h2>BPM 구축 사례</h2>
       </div>
       <!-- <h2 class="text-3xl font-bold text-center mb-16">성공적인 구축 사례</h2> -->
       

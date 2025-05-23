@@ -6,7 +6,8 @@
           <h2>지금 바로 Process GPT를 시작하세요</h2>
           <p>AI 기반 프로세스 관리의 혁신을 경험해보세요</p>
           <div class="cta-buttons">
-            <a href="https://www.process-gpt.io/" target="_blank" class="btn btn-primary-cta">시작하기</a>
+            <a href="https://forms.gle/f8AmiCa3wvRztUHu7" target="_blank" class="btn btn-primary-cta">Waitlist에 등록하기</a>
+            <!-- <a href="https://www.process-gpt.io/" target="_blank" class="btn btn-primary-cta">시작하기</a> -->
             <button @click="openForm" class="btn btn-secondary-cta">
               <span>문의하기</span>
             </button>

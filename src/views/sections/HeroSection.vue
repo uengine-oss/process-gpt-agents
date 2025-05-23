@@ -5,9 +5,12 @@
         <h1>AI를 기반한 프로세스 관리에서 실행까지를 손쉽게 시작하세요</h1>
         <p>Process GPT로 비즈니스 프로세스를 자연어로 정의하고 실행 가능한 모델로 변환하세요. 전통적인 BPM 작업을 단순화하고 비용과 노력을 줄일 수 있습니다.</p>
         <div class="hero-buttons">
-          <a href="https://www.process-gpt.io/" target="_blank" class="btn btn-primary">지금 시작하기</a>
-          <router-link class="btn btn-secondary" to="/marketplace" @click="scrollToTop">마켓플레이스</router-link>
-          <!-- <a href="#" class="btn btn-secondary">마켓플레이스</a> -->
+          <!-- <a href="https://www.process-gpt.io/" target="_blank" class="btn btn-primary">지금 시작하기</a>
+          <router-link class="btn btn-secondary" to="/marketplace" @click="scrollToTop">마켓플레이스</router-link> -->
+
+          <a href="https://forms.gle/f8AmiCa3wvRztUHu7" target="_blank" class="btn btn-primary">Waitlist에 등록하기</a>
+          <a href="#contact" target="_blank" class="btn btn-secondary">문의하기</a>
+
         </div>
         <div class="mt-6">
           <a target="_blank" class="text-blue-600 hover:text-blue-800 font-medium flex items-center" href="/src/assets/images/process_gpt_presentation.pdf">
