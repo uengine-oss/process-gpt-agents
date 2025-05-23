@@ -9,12 +9,12 @@
           <router-link class="btn btn-secondary" to="/marketplace" @click="scrollToTop">마켓플레이스</router-link>
           <!-- <a href="#" class="btn btn-secondary">마켓플레이스</a> -->
         </div>
-        <!-- <div class="mt-6">
-          <a target="_blank" class="text-blue-600 hover:text-blue-800 font-medium flex items-center" href="https://symlscvu.genspark.space/">
+        <div class="mt-6">
+          <a target="_blank" class="text-blue-600 hover:text-blue-800 font-medium flex items-center" href="/src/assets/images/process_gpt_presentation.pdf">
             <span>Technical Report 보기</span>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-4 h-4 ml-1"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
           </a>
-        </div> -->
+        </div>
       </div>
       <div class="hero-image">
         <img src="@/assets/images/main-img-gpt.png" alt="Process GPT 대시보드" />
